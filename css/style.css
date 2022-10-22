@@ -1,0 +1,73 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;      
+    background-color:rgba(17, 17, 17, 0.959); 
+}
+
+body, html {
+    width: 100%;
+    color: rgb(203, 226, 202);
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color:rgba(17, 17, 17, 0.959); 
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 520px;
+    font-size: 16px; 
+    background-color:rgba(17, 17, 17, 0.685); 
+}
+.menu{
+    display:flex;
+    font-size: 18px; 
+}
+ul{
+    list-style:none;
+}
+li{
+    display: block;
+    float: left
+}
+.content{
+    overflow: hidden;
+}
+.content img{
+    float: left;
+    margin-right: 15px;
+}
+
+.content p{
+    overflow-wrap: normal; /* показывает тексту, что он не должен заходить за границы блока */
+    word-wrap: normal;
+    padding: 20px; /* отступ от рамки до текста - делает его красивее */
+    margin-left: 35px; /* отступ с левой стороны от блока с картинкой */
+    display: block; /* обознначает, что это не просто бесформенный текст, а блок внутри блока */
+    font-size:16px; /* размер текста*/
+    margin: 2px 0 0 0; /* отступ от блока с текстом */
+}
+.header {
+    display:flex;
+    font-size: 16px; 
+}
+
+.footer{
+    font-size: 10px;
+    color: aliceblue;
+}
+
+a:link, a:visited {
+    background-color: aliceblu ;
+    border: none;
+    color: #06afa7;
+    padding: 5px 12px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size:18px;
+    text-align: center; 
+    cursor: pointer;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: rgb(136, 220, 223) ;
